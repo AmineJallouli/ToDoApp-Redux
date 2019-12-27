@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+li{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: #2ABB9C;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.App {
+  border: 1px solid black;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+  background-color: #35495D;
+}
+
+.todo{
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+.todo input{
+  margin-bottom: 20px;
+  width: 467px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.todo button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
